@@ -4113,7 +4113,7 @@ input, select, textarea {
 /* Canvas Drawer */
 
 	.paint-canvas {
-		border: 25px #e44c65 solid;
+		border: 20px #e44c65 solid;
 		display: block;
 		margin: 1rem;
 	  }
