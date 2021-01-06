@@ -1,8 +1,8 @@
 const paintCanvas = document.querySelector( '.js-paint' );
 const context = paintCanvas.getContext( '2d' );
 context.lineCap = 'round';
-context.fillStyle = "#FF0000";
-context.fillRect(0, 0, 80, 80);
+context.fillStyle = "#FFFFFF";
+context.fillRect(0, 0, 900, 500);
 
 const colorPicker = document.querySelector( '.js-color-picker');
 

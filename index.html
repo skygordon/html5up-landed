@@ -75,7 +75,7 @@
 									<br>
 									<input style= "display: block;margin-left: auto;margin-right: auto;" type='file' onchange="readURL(this);" accept="image/jpeg, image/png" />
 									<br>
-									<a href="#three" class="button primary fit scrolly">Submit My Image for Analysis.</a>
+									<a style="width: 80%;display: block;margin-left: auto;margin-right: auto;text-align: center;" href="#three" class="button primary fit scrolly">Submit My Image for Analysis.</a>
 								</div>
 								<div class="col-4 col-12-medium">
 									<header>
@@ -84,7 +84,7 @@
 										<br>
 										<h3 style="text-align:center;">Or you can draw a fresh image below right now!</h3>
 										<br>
-										<a href="#two" class="button primary fit scrolly">Take me to my canvas!</a>
+										<a style="width: 65%;display: block;margin-left: auto;margin-right: auto;" href="#two" class="button primary fit scrolly">Take me to my canvas!</a>
 									</header>
 								</div>
 							</div>
@@ -92,41 +92,26 @@
 					</div>
 				<!--	<a href="#two" class="goto-next scrolly">Next</a>       no scroll arrow anymore -->
 				</section>
-				<div style="text-align: center;" class="content right">
-					<header>
-						<br>
-						<h2>Draw your own image here.</h2>
-						<p>let this page be your canvas</p>
-					</header>
-				<input type="color"  class="js-color-picker  color-picker">
-				<input type="range" class="js-line-range" min="1" max="72" value="1">
-				<label class="js-range-value">1</label>
-				<canvas style="z-index: 100;color: rgb(36, 248, 8); display: block;margin-left: auto;margin-right: auto;" class="js-paint  paint-canvas" width="1000" height="600"></canvas>
-				</div>
-				<div style="text-align: center;">
-					<p>Feugiat accumsan lorem eu ac lorem amet ac arcu phasellus tortor enim mi mi nisi praesent adipiscing. Integer mi sed nascetur cep aliquet augue varius tempus lobortis porttitor lorem et accumsan consequat adipiscing lorem.</p>
-					<a href="#three" class="button primary fit scrolly">Submit My Image for Analysis.</a>
-				</div>
+
+				
 				<!-- Two -->
-				<section id="two" class="spotlight style2 right">
-					<!-- <div class="image fit main"><img src="images/pic01.jpg" alt="" /></div>  og class specs-->
-					<span style="position: absolute;" class="image fit main"><img src="images/pic01.jpg" alt="" /></span>
-					<span><canvas style="z-index: 100;color: #fffdfd;" class="js-paint  paint-canvas" width="600" height="300"></canvas></span>
-					<div class="content">
+				<section id="two" >
+					<div style="text-align: center;" class="content right">
 						<header>
+							<br>
 							<h2>Draw your own image here.</h2>
 							<p>let this page be your canvas</p>
 						</header>
-						<p>Feugiat accumsan lorem eu ac lorem amet ac arcu phasellus tortor enim mi mi nisi praesent adipiscing. Integer mi sed nascetur cep aliquet augue varius tempus lobortis porttitor lorem et accumsan consequat adipiscing lorem.</p>
-						<ul class="actions">
-							<li><a href="#" class="button">Learn More</a></li>
-						</ul>
 					<input type="color"  class="js-color-picker  color-picker">
 					<input type="range" class="js-line-range" min="1" max="72" value="1">
-					<label class="js-range-value">1</label>Px
-					
+					<label class="js-range-value">1</label>
+					<canvas style="z-index: 100; display: block;margin-left: auto;margin-right: auto;" class="js-paint  paint-canvas" width="900" height="500"></canvas>
 					</div>
-					<a href="#three" class="goto-next scrolly">Next</a>
+					<div style="text-align: center;">
+						<p>When you are done with your masterpiece you can hit the button below to submit your image.</p>
+						<a style="width: 20%;" href="#three" class="button primary fit scrolly">Submit My Image for Analysis.</a>
+						<br>
+					</div>
 				</section>
 
 			<!-- Three -->
