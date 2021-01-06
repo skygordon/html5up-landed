@@ -3143,11 +3143,11 @@ input, select, textarea {
 		}
 
 		.spotlight.style2 .content {
-			border-color: #5480f1;
+			border-color: #e44c65;
 		}
 
 		.spotlight.style3 .content {
-			border-color: #39c088;
+			border-color: #e44c65;
 		}
 
 		.spotlight.inactive .content {
@@ -4113,7 +4113,7 @@ input, select, textarea {
 /* Canvas Drawer */
 
 	.paint-canvas {
-		border: 5px rgb(37, 195, 243) solid;
+		border: 25px #e44c65 solid;
 		display: block;
 		margin: 1rem;
 	  }
