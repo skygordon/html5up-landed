@@ -71,9 +71,11 @@
 								</div>
 								<div class="col-4 col-12-medium">
 									<p style="text-align:center;">You can upload your own drawings that are .jpg or .png files.</p>
-									<img style="max-width:320px;max-height:320px;display: block;margin-left: auto;margin-right: auto;" id="blah" src="http://placehold.it/320" alt="your image"/>
+									<img style="max-width:180px;max-height:180px;display: block;margin-left: auto;margin-right: auto;" id="blah" src="http://placehold.it/180" alt="your image"/>
 									<br>
 									<input style= "display: block;margin-left: auto;margin-right: auto;" type='file' onchange="readURL(this);" accept="image/jpeg, image/png" />
+									<br>
+									<a href="#three" class="button primary fit scrolly">Submit My Image for Analysis.</a>
 								</div>
 								<div class="col-4 col-12-medium">
 									<header>
@@ -90,13 +92,26 @@
 					</div>
 				<!--	<a href="#two" class="goto-next scrolly">Next</a>       no scroll arrow anymore -->
 				</section>
+				<div style="text-align: center;" class="content right">
+					<header>
+						<br>
+						<h2>Draw your own image here.</h2>
+						<p>let this page be your canvas</p>
+					</header>
 				<input type="color"  class="js-color-picker  color-picker">
 				<input type="range" class="js-line-range" min="1" max="72" value="1">
 				<label class="js-range-value">1</label>
-				<canvas class="js-paint  paint-canvas" width="100" height="100"></canvas>
-			<!-- Two -->
+				<canvas style="z-index: 100;color: rgb(36, 248, 8); display: block;margin-left: auto;margin-right: auto;" class="js-paint  paint-canvas" width="1000" height="600"></canvas>
+				</div>
+				<div style="text-align: center;">
+					<p>Feugiat accumsan lorem eu ac lorem amet ac arcu phasellus tortor enim mi mi nisi praesent adipiscing. Integer mi sed nascetur cep aliquet augue varius tempus lobortis porttitor lorem et accumsan consequat adipiscing lorem.</p>
+					<a href="#three" class="button primary fit scrolly">Submit My Image for Analysis.</a>
+				</div>
+				<!-- Two -->
 				<section id="two" class="spotlight style2 right">
-					<span class="image fit main"><img src="images/pic03.jpg" alt="" /></span>
+					<!-- <div class="image fit main"><img src="images/pic01.jpg" alt="" /></div>  og class specs-->
+					<span style="position: absolute;" class="image fit main"><img src="images/pic01.jpg" alt="" /></span>
+					<span><canvas style="z-index: 100;color: #fffdfd;" class="js-paint  paint-canvas" width="600" height="300"></canvas></span>
 					<div class="content">
 						<header>
 							<h2>Draw your own image here.</h2>
@@ -109,7 +124,7 @@
 					<input type="color"  class="js-color-picker  color-picker">
 					<input type="range" class="js-line-range" min="1" max="72" value="1">
 					<label class="js-range-value">1</label>Px
-					<canvas class="js-paint  paint-canvas" width="600" height="300"></canvas>
+					
 					</div>
 					<a href="#three" class="goto-next scrolly">Next</a>
 				</section>

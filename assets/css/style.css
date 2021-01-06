@@ -1,5 +1,5 @@
 .paint-canvas {
-    border: 1px black solid;
+    border: 1px rgb(248, 8, 8) solid;
     display: block;
     margin: 1rem;
   }

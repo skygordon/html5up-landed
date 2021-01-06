@@ -4109,3 +4109,15 @@ input, select, textarea {
 					}
 
 	}
+
+/* Canvas Drawer */
+
+	.paint-canvas {
+		border: 1px rgb(248, 8, 8) solid;
+		display: block;
+		margin: 1rem;
+	  }
+	  
+	  .color-picker {
+		margin: 1rem 1rem 0 1rem;
+	  }
