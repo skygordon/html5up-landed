@@ -2,6 +2,8 @@ const paintCanvas = document.querySelector( '.js-paint' );
 const context = paintCanvas.getContext( '2d' );
 context.lineCap = 'round';
 context.fillStyle = "#FFFFFF";
+paintCanvas.width = window.innerWidth;
+paintCanvas.height = window.innerHeight;
 context.fillRect(0, 0, paintCanvas.width, paintCanvas.height);
 
 const colorPicker = document.querySelector( '.js-color-picker');
