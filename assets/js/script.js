@@ -1,5 +1,5 @@
 const paintCanvas = document.querySelector( '.js-paint' );
-const context = paintCanvas.getContext( '2d' );
+const context = paintCanvas.getContext('2d');
 context.lineCap = 'round';
 context.fillStyle = "#FFFFFF";
 context.fillRect(0, 0, paintCanvas.width, paintCanvas.height);
